@@ -8,7 +8,9 @@ function Main() {
     <>
     <div className="roboto">
       <Header></Header>
+      <div className="bg-[#2c2012] border-t border-black border-dotted">
       <Outlet></Outlet>
+      </div>
     </div>
     </>
   )
