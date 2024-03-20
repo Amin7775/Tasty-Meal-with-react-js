@@ -1,14 +1,15 @@
+import { Outlet } from "react-router-dom"
+import Header from "./components/Header/Header"
 
-function App() {
+function Main() {
  
 
   return (
     <>
-      <p className='roboto'>Hello</p>
-      
-      
+      <Header></Header>
+      <Outlet></Outlet>
     </>
   )
 }
 
-export default App
+export default Main
